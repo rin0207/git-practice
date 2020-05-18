@@ -9,7 +9,7 @@
 	clear: both;
 }
 main{
-	width: 966px;
+	width: 960px;
 	margin: 50px auto;
 }
 .step1, .step2{
@@ -47,4 +47,26 @@ main{
 	position: absolute;
 	top: 0;
 	left: 0;
+	padding: 3px;
+}
+@media screen and (max-width: 768px){
+	main{
+		width: 100%;
+	}
+	.step1,.step2,.step3{
+		width: 90%;
+		margin: 0 5% 20px 5%;
+		float: none;
+	}
+	.step-image{
+		width: 96%;
+		height: 240px;
+		margin: 2%;
+	}
+	.text{
+		margin: 2%;
+	}
+	.step-num{
+		font-size: auto;
+	}
 }
